@@ -1,0 +1,633 @@
+
+body {
+    font-family: "Poppins";  
+    color: #173A56;
+    background-color: #f9f9f9;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }p
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__container {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar__logo {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar__logo-text {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.navbar__menu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #173A56;
+    font-size: 16px;
+}
+
+.navbar__link:hover {
+    color: #007bff;
+}
+
+.navbar__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.button--primary {
+    background-color: #fdb022;
+    color: #fff;
+}
+
+.button--primary:hover {
+    background-color: #e69e1c;
+}
+
+.button--secondary {
+    background-color: #fff;
+    color: #173A56;
+    border: 1px solid #007bff;
+}
+
+.button--secondary:hover {
+    background-color: #f0f0f0;
+}
+
+
+.hero {
+    width: 1125px;
+    height: 494px;
+    margin: 140px auto 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.hero__content {
+    flex: 1;
+}
+
+.hero__title {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero__description {
+    font-size: 28px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+   
+}
+
+.hero__buttons {
+    display: flex;
+    align-items: center;
+  
+    gap: 50px;
+}
+.button--cta{
+    background-color: #e69e1c;
+    color: #f0f0f0;
+}
+
+.hero__link {
+    text-decoration: none;
+    color: #fdb022;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.hero__image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transform: translateY(-20px);
+}
+
+.hero__image {
+    width:605px;
+    height: 496px;
+}
+
+.features {
+    height: 543px;
+    width: 100%;
+
+    
+    margin: 40px auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.features__content {
+    max-width: 1125px;
+    text-align: center;
+}
+
+.features__title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.features__items {
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.features__item {
+    align-items: center;
+   
+    flex: 1;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+   
+   
+}
+
+.features__icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #f0f4f8;
+}
+
+.features__icon {
+    width: 30px;
+
+}
+
+.features__item-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features__item-description {
+    font-size: 14px;
+    color: #173A56;
+}
+
+.professionals {
+    width: 100%;
+    height: 574px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.professionals__content {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.professionals__text {
+    flex: 1;
+    max-width: 550px;
+}
+
+.professionals__subtitle {
+    font-size: 16px;
+    color: #173A56;
+    margin-bottom: 10px;
+}
+
+.professionals__title {
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.professionals__description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.professionals__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.professionals__detail-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.professionals__detail-description {
+    font-size: 14px;
+    color: #173A56;
+    margin-bottom: 10px;
+}
+
+.professionals__image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.professionals__image {
+    width: 520PX;
+    height: 574PX;
+}
+
+.product-managers {
+    width: 100%;
+    height: 609px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    display: flex;
+    
+}
+
+.product-managers__content {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.product-managers__image-container {
+    flex: 1;
+    justify-content: flex-start;
+    display: flex;
+   
+}
+
+.product-managers__image {
+    width: 535px;
+    height: 521px;
+}
+
+.product-managers__text {
+    flex: 1;
+
+}
+
+.product-managers__subtitle {
+    font-size: 16px;
+    color: #173A56;
+    margin-bottom: 10px;
+}
+
+.product-managers__title {
+    
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.product-managers__description {
+    font-size: 16px;
+    color: #173A56;
+    margin-bottom: 20px;
+}
+
+.product-managers__benefits {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-managers__benefit {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #173A56;
+}
+
+.product-managers__benefit-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fdb022;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+  
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+
+.marketers {
+    width: 1109px;
+    height: 609px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.marketers__content {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marketers__text {
+    flex: 1;
+    max-width: 550px;
+}
+
+.marketers__subtitle {
+    font-size: 16px;
+    color: #173A56;
+    margin-bottom: 10px;
+}
+
+.marketers__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.marketers__description {
+    font-size: 16px;
+    color: #173A56;
+    margin-bottom: 20px;
+}
+
+.marketers__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.marketers__detail-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.marketers__detail-description {
+    font-size: 14px;
+    color: #173A56;
+    margin-bottom: 10px;
+}
+
+.marketers__image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.marketers__image {
+    width: 541px;
+    height: 680px;
+}
+
+
+.footer {
+    width: 1109px;
+    height: 308px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.footer__content {
+    width: 1109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-container {
+   
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.footer__logo {
+    width: 30px;
+    height: 30px;
+}
+
+.footer__logo-text {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.footer__links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer__link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+    color: #007bff;
+}
+
+.footer__subscribe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
